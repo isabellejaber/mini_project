@@ -1,5 +1,5 @@
 #introduction
-print("Welcome to the Value of Your Day quiz! This quiz will help you determine the worth of your day through analyzing )
+print("Welcome to the Value of Your Day quiz! This quiz will help you determine the worth of your day through analyzing a series of factors. This quiz will be most accurate if taken at the end of the day and answered as truthfully as possible. We hope this quiz is helpful and enjoyable." )
 
 day_rating = 0
 bonus_points = 0

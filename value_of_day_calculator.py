@@ -67,9 +67,12 @@ optional_downtime = int(input("Please rate how downtime effected your day. A sca
 bonus_points += int(optional_downtime)
 
 
+from decimal import Decimal
 day_rating += bonus_points
-percentage = (day_rating / total_points) * 100
+gross_percentage = float(day_rating / total_points) * 100
+fine_percentage = round(gross_percentage, 2)
+
 
 print("Your day is a " + str(day_rating) + " out of " + str(total_points) + "!")
 print("You got " + str(bonus_points) + " bonus points, which may have contributed positively to your day.")
-print("In other words, your day was " + str(percentage) + "% fantastic.")
+print("In other words, your day was " + str(fine_percentage) + "% fantastic.")

@@ -1,3 +1,6 @@
+#introduction
+print("Welcome to the Value of Your Day quiz! This quiz will help you determine the worth of your day through analyzing )
+
 day_rating = 0
 bonus_points = 0
 total_points = 0
